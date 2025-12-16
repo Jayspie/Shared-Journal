@@ -1,0 +1,79 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+#header {
+  font-family: "Oliver";
+  font-size: 24px;
+}
+#header ul {
+  list-style: none;
+}
+#header li {
+  display: inline-block;
+  margin-right: 5%;
+}
+#space {
+  margin-left: 31%;
+}
+
+#toolbar-container {
+  margin-top: -3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 16px;
+  border-radius: 25px;
+  background-color: #f0f4f9;
+}
+
+/* Set default font-family */
+#container {
+  font-family: "Oliver";
+  font-size: 18px;
+  margin: 1% auto;
+  border: 2px #cccccc solid;
+  width: 95%;
+  height: 1000px;
+}
+
+.ql-snow .ql-picker.ql-font,
+.ql-bubble .ql-picker.ql-font {
+  width: 130px;
+}
+/* Set dropdown font-families */
+.ql-font span[data-value="Oliver"]::before,
+.ql-font span[data-label="Oliver"]::before {
+  font-family: "Oliver";
+}
+.ql-font span[data-value="courier"]::before,
+.ql-font span[data-label="Courier"]::before {
+  font-family: "Courier";
+}
+.ql-font span[data-value="comic"]::before,
+.ql-font span[data-label="Comic Sans MS"]::before {
+  font-family: "Comic Sans MS";
+}
+.ql-font span[data-value="Wawa"]::before,
+.ql-font span[data-label="History of Wawa"]::before {
+  font-family: "History-of-Wawa";
+}
+
+.ql-font-oliver {
+  font-family: "Oliver";
+  src: url(assest/Oliver-Regular.ttf);
+}
+.ql-font-courier {
+  font-family: "Courier";
+}
+.ql-font-comic {
+  font-family: "Comic Sans MS";
+}
+.ql-font-Wawa {
+  font-family: "History-of-Wawa";
+  src: url(assest/History-of-Wawa.ttf);
+}
