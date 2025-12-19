@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="/document/doucument.css">
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hunghg255/quill-resize-module/dist/quill-resize-image.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <ul>
+                <li>
+                    <h1>LOGO</h1>
+                </li>
+                <li>
+                    <h3>doucument name</h3>
+                </li>
+                <li id="space"></li>
+                <li>visibility</li>
+                <li>
+                    <h3>User</h3>
+                </li>
+            </ul>
+        </div>
+        <div id="toolbar-container">
+            <select class="ql-size">
+                <option selected></option>
+                <option value="small"></option>
+                <option value="large"></option>
+                <option value="huge"></option>
+            </select>
+
+
+            <select class="ql-font">
+                <option value="Oliver" selected>Oliver</option>
+                <option value="courier">Courier</option>
+                <option value="comic">Comic Sans MS</option>
+                <option value="Wawa">History of Wawa</option>
+            </select>
+
+            <button class="ql-bold"></button>
+            <button class="ql-italic"></button>
+            <button class="ql-underline"></button>
+            <select class="ql-color"></select>
+            <button class="ql-link"></button>
+            <button class="ql-image"></button>
+            <select class="ql-align"></select>
+            <button class="ql-list" value="ordered"></button>
+            <button class="ql-list" value="bullet"></button>
+            <button class="ql-clean"></button>
+            <button id="dowload"><img src="/document/assest/download-minimalistic-svgrepo-com.svg"
+                    alt="Description of image" width="auto" height="25"></button>
+
+        </div>
+    </header>
+    <div id="container"></div>
+</body>
+
+
+<script src="/document/doucument_new.js"></script>
+
+</html>
